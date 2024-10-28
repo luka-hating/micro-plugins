@@ -4,6 +4,8 @@ go 1.17
 
 require (
 	github.com/golang/protobuf v1.5.4
+	github.com/micro/plugins/v5/client/grpc v1.0.2
+	github.com/micro/plugins/v5/transport/grpc v1.0.1
 	go-micro.dev/v5 v5.3.0
 	golang.org/x/net v0.30.0
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
@@ -31,6 +33,4 @@ require (
 	google.golang.org/protobuf v1.35.1 // indirect
 )
 
-replace (
-	github.com/micro/plugins/v5/transport/grpc => github.com/laku-hating/micro-plugins/v5/transport/grpc
-)
+replace github.com/micro/plugins/v5/transport/grpc => github.com/luka-hating/micro-plugins/v5/transport/grpc v0.0.0-20241028095854-ded95533c0cc
