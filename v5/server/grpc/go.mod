@@ -1,4 +1,4 @@
-module github.com/micro/plugins/v5/server/grpc
+module github.com/luka-hating/micro-plugins/v5/server/grpc
 
 go 1.17
 
